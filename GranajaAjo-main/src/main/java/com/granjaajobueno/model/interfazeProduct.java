@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.granjaajobueno.model;
 
-/**
- *
- * @author ashura
- */
-public class interfazeProduct {
-    
+
+public abstract class interfazeProduct {
+    private int id;
+    private String type;
+    private String name;
+    private String distribution;
+    private int stock;
 }
